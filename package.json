@@ -12,6 +12,7 @@
     "npm": "6.0.1",
     "node": "8.9.0"
   },
+  "postinstall": "webpack -p --mode=production --progress",
   "author": "",
   "license": "ISC",
   "devDependencies": {
