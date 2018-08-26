@@ -1,5 +1,5 @@
 {
-  "presets": [["env", {"modules": false}]],
+  "presets": [["env", {"modules": false,  "targets": { "chrome": 67 } }]],
   "env": {
     "test": {
       "presets": [["env"]]

@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "production": "rimraf dist && webpack --mode=production",
+    "start": "rimraf dist && webpack --mode=production",
     "development": "webpack-dev-server --mode=development",
     "test": "jest"
+  },
+  "engines": {
+    "npm": "6.0.1",
+    "node": "8.9.0"
   },
   "author": "",
   "license": "ISC",
